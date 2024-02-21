@@ -169,9 +169,6 @@ def main(genomes, config):
         if len(dots)!=0 and dots[0].y<obstacles[0].y:
             obstacle_ind = 1
 
-    
-
-    
         if obstacle_passed == True:
             for g in ge:
                 g.fitness += 20
